@@ -1,0 +1,120 @@
+body{
+  background-color:black;
+  font-family:Steelfish;
+
+}
+
+.mada{
+font-size:100px;
+background-color:#8ce8fc;
+  
+  animation: slideleft 2s infinite alternate,
+  skew 2s infinite alternate
+
+}
+
+
+@keyframes slideleft {
+    0% {
+     
+      margin-left: 20px;
+      transform:skew(30deg);
+      
+  }
+    100%{
+     
+       margin-left: 500px;
+       transform:skew(-30deg);
+       
+    }
+}
+
+.title{
+  font-size:100px;
+background-color:#9cfc8c;
+}
+
+.sen{
+    font-size:100px;
+background-color:#f0fc8c;
+}
+
+.date{
+      font-size:100px;
+background-color:#fca78c;
+ animation: slideleftt 2s infinite alternate,
+  skew 2s infinite alternate
+}
+
+@keyframes slideleftt {
+    0% {
+     
+      margin-left: 20px;
+      transform:skew(30deg);
+      
+  }
+    100%{
+     
+       margin-left: 500px;
+       transform:skew(-30deg);
+       
+    }
+}
+
+
+.mada2{
+font-size:100px;
+background-color:#8ce8fc;
+  
+  animation: slideleft 2s infinite alternate,
+  skew 2s infinite alternate
+
+}
+
+
+@keyframes slideleft {
+    0% {
+     
+      margin-left: 20px;
+      transform:skew(30deg);
+      
+  }
+    100%{
+     
+       margin-left: 500px;
+       transform:skew(-30deg);
+       
+    }
+}
+
+.title2{
+  font-size:100px;
+background-color:#9cfc8c;
+}
+
+.sen2{
+    font-size:100px;
+background-color:#f0fc8c;
+}
+
+.date2{
+      font-size:100px;
+background-color:#fca78c;
+ animation: slideleftt 2s infinite alternate,
+  skew 2s infinite alternate
+}
+
+@keyframes slideleftt {
+    0% {
+     
+      margin-left: 20px;
+      transform:skew(30deg);
+      
+  }
+    100%{
+     
+       margin-left: 500px;
+       transform:skew(-30deg);
+       
+    }
+}

@@ -1,0 +1,116 @@
+body{
+	background-color: #f25e74;
+	font-family:Minecrafter;
+
+
+}
+
+
+
+
+
+
+
+
+.mada{
+	font-family:La Distorsionada;
+	display:block;
+	width:33%;
+	font-size:200px;
+	padding:5px;
+	margin-right:auto;
+	animation: slideleft 3s infinite alternate,
+	skew 2s infinite alternate
+}
+
+@keyframes slideleft {
+    0% {
+     
+      margin-left: 20px;
+      transform:skew(30deg);
+      letter-spacing: 5px;
+  }
+    100%{
+     
+       margin-left: 500px;
+       transform:skew(-30deg);
+       letter-spacing: 300px;
+    }
+}
+
+
+.title{
+	font-family:La Distorsionada;
+	display:block;
+	width:33%;
+	font-size:100px;
+	padding:5px;
+	margin-left:auto;
+	animation: slideleft 3s infinite alternate,
+	skew 2s infinite alternate
+}
+
+@keyframes slideleft {
+    0% {
+     
+      margin-left: 20px;
+      transform:skew(30deg);
+      letter-spacing: 5px;
+  }
+    100%{
+     
+       margin-left: 500px;
+       transform:skew(-30deg);
+       letter-spacing: 300px;
+    }
+}
+
+.sen{
+	text-align: center;
+	font-size: 80px;
+	animation: colorchange 2s infinite;
+}
+@keyframes colorchange {
+    0% {
+      color:#eefa2c;   
+      
+  }
+    100%{
+       color:#ff8884;
+      
+    }
+}
+
+.date{
+	font-family:La Distorsionada;
+	display:block;
+	width:50%;
+	font-size:200px;
+	padding:5px;
+	margin-left:auto;
+	animation: slideright 3s infinite alternate,
+	skew 2s infinite alternate
+}
+
+@keyframes slideright {
+    0% {
+     
+      margin-right: 20px;
+      transform:skew(30deg);
+        letter-spacing: 5px;
+        
+  }
+    100%{
+     
+       margin-right: 200px;
+       transform:skew(-30deg);
+        letter-spacing:300px;
+        
+    }
+}
+
+
+}
+
+
+

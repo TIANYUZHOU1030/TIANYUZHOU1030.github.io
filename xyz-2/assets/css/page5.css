@@ -1,0 +1,84 @@
+body {
+	font-family: Arial Black;
+	font-size: 60px;
+	text-align: center;
+	background-color:black;
+}
+
+
+.mada{
+	font-size: 300px;
+	animation: colorchange 2s infinite;
+}
+.mada2{
+font-size: 300px;
+animation: colorchange 2s infinite;
+
+}
+
+@keyframes colorchange {
+    0% {
+      color:red; 
+       
+      
+      
+  }
+    100%{
+     
+      color:yellow;
+        
+       
+    }
+}
+
+.title{
+	font-size:100px;
+	background-color:yellow;
+
+}
+
+.date{
+	background-color:yellow;
+	animation:skew 3s infinite alternate
+}
+
+
+@keyframes skew{
+    0% {
+     
+    
+      transform:skew(100deg);
+      
+  }
+    100%{
+     
+    
+       transform:skew(-100deg);
+       
+    }
+}
+
+.sen{
+	animation: colorchangeee 2s infinite;
+}
+
+@keyframes colorchangeee {
+    0% {
+      color:black; 
+      
+      
+  }
+    100%{
+     
+      color:yellow;
+       
+    }
+}
+a {
+	color:red;
+}
+
+
+span {
+	color:red;
+}
