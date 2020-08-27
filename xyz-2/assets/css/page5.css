@@ -1,7 +1,7 @@
 body {
 	font-family: Arial Black;
 	font-size: 60px;
-	text-align: center;
+  text-align: center;
 	background-color:black;
 }
 
@@ -9,11 +9,14 @@ body {
 .mada{
 	font-size: 300px;
 	animation: colorchange 2s infinite;
+  text-align: center;
+  filter:blur(20px);
 }
 .mada2{
 font-size: 300px;
 animation: colorchange 2s infinite;
-
+text-align: center;
+filter:blur(20px);
 }
 
 @keyframes colorchange {
@@ -31,15 +34,70 @@ animation: colorchange 2s infinite;
     }
 }
 
+
+.circle{
+width:100px;
+height:100px;
+border-radius:100%;
+background:radial-gradient(yellow, red);
+position:fixed;
+top:300px;
+}
+
+
+.circle1{
+width:100px;
+height:100px;
+border-radius:100%;
+background:radial-gradient(yellow, red);
+position:fixed;
+top:100px;
+}
+
+
+.circle2{
+width:100px;
+height:100px;
+border-radius:100%;
+background:radial-gradient(yellow, red);
+position:fixed;
+top:500px;
+}
+
+.circle3{
+width:100px;
+height:100px;
+border-radius:100%;
+background:radial-gradient(yellow, red);
+position:fixed;
+top:700px;
+}
+
+
+.circle4{
+width:50px;
+height:50px;
+border-radius:100%;
+background:radial-gradient(yellow, red);
+position:fixed;
+left:700px;
+
+}
+
+
 .title{
 	font-size:100px;
-	background-color:yellow;
+  color:yellow;
+  text-align: center;
 
 }
 
 .date{
-	background-color:yellow;
+  font-size:200px;
+	color:red;
 	animation:skew 3s infinite alternate
+
+
 }
 
 
@@ -59,7 +117,8 @@ animation: colorchange 2s infinite;
 }
 
 .sen{
-	animation: colorchangeee 2s infinite;
+	animation: colorchangeee 3s infinite;
+  font-size:200px;
 }
 
 @keyframes colorchangeee {
