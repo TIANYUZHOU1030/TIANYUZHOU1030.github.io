@@ -12,6 +12,7 @@ a {
 
 .title{
 	text-shadow: 10px 10px 10px green;
+	white-space:nowrap;
 }
 .images{
 	width:100px;
