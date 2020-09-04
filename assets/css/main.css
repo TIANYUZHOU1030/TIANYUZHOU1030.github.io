@@ -7,15 +7,168 @@ body {
 }
 
 a {
-	color:red;
+	font-size:20px;
+	color:green;
+	text-shadow: 10px 10px 10px white;
+
 }
+
+.lines1{	
+width:400px;
+height:5px;
+background:green;
+transform: rotate(-90deg);
+box-shadow: 10px 0px 10px white;
+animation: rotate 2s infinite;
+}
+
+.lines2{	
+width:400px;
+height:5px;
+background:green;
+transform: rotate(-60deg);
+box-shadow: 10px 0px 10px white;
+animation: rotate2 2s infinite;
+}
+
+.lines3{	
+width:400px;
+height:5px;
+background:green;
+transform: rotate(-30deg);
+box-shadow: 10px 0px 10px white;
+animation: rotate3 2s infinite;
+}
+
+.lines4{	
+width:400px;
+height:5px;
+background:green;
+transform: rotate(-180deg);
+box-shadow: 10px 0px 10px white;
+animation: rotate4 2s infinite;
+}
+
+.lines5{	
+width:400px;
+height:5px;
+background:green;
+transform: rotate(30deg);
+box-shadow: 10px 0px 10px white;
+animation: rotate5 2s infinite;
+}
+
+@keyframes rotate {
+    0% {
+      transform:rotate(-90deg);
+       
+      
+      
+  }
+    100%{
+     
+      transform:rotate(90deg);
+        
+       
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+      transform:rotate(-60deg);
+       
+      
+      
+  }
+    100%{
+     
+      transform:rotate(60deg);
+        
+       
+    }
+}
+
+@keyframes rotate3 {
+    0% {
+      transform:rotate(-30deg);
+       
+      
+      
+  }
+    100%{
+     
+      transform:rotate(30deg);
+        
+       
+    }
+}
+
+@keyframes rotate4 {
+    0% {
+      transform:rotate(-180deg);
+       
+      
+      
+  }
+    100%{
+     
+      transform:rotate(180deg);
+        
+       
+    }
+}
+
+@keyframes rotate5 {
+    0% {
+      transform:rotate(30deg);
+       
+      
+      
+  }
+    100%{
+     
+      transform:rotate(-30deg);
+        
+       
+    }
+}
+
+.circle{
+	width:100px;
+    height:100px;
+    background:red;
+    border-radius:100%;
+    position:fixed;
+    left:1000px;
+    top:200px;
+
+
+}
+.nav{
+display:flex;
+justify-content:space-around;
+background-color:black;
+box-shadow:0px 0px 10px 10px lightgreen;
+
+}
+
+.btn{
+    border:1px solid black;
+    padding:20px;
+    margin:10px;
+    border-radius:100px;
+
+}
+
+.btn:hover {
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
+
 
 .title{
 	text-shadow: 10px 10px 10px green;
 	white-space:nowrap;
 }
-.images{
-	width:100px;
-	margin-left:auto;
-	margin-right:auto;
-}
+
