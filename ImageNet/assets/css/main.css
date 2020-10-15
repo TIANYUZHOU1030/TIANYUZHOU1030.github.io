@@ -1,0 +1,277 @@
+body {
+	font-size: 21px;
+	font-family: arial;
+	background-color: black;
+}
+
+/* index css */
+
+.demo-menu {
+	margin-left:10px;
+	margin-top:10px;
+}
+
+
+/* Make sure to add transition:2s; */
+
+
+
+/*Add background color, and then transition:2s; */
+
+
+
+
+
+
+.slide1 {
+  width: 50%;
+  height: 50vh;
+  padding: 10px;
+  background-color: yellow;
+  position: fixed;
+  top: 200px;
+  right: 0px;
+  margin-right:-50%;
+  font-family: Oldstyle Italic; 
+  transition: 2s;
+  overflow:scroll;
+}
+
+
+.slide2 {
+  width: 50%;
+  height: 60vh;
+  padding: 10px;
+  background-color: yellow;
+  position: fixed;
+  top: 200px;
+  right: 0px;
+  font-family: Oldstyle Italic; 
+ 
+}
+
+/* add a .active, then make it specific to the element that is active ie.
+.box.active or .slide.active or .alert.active  */
+
+
+.slide1.active {
+	margin-right: 0px;
+	transition: 2s;
+
+}
+
+
+
+.btn-slide1 {
+  width: 100px;
+  padding: 10px;
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  box-shadow: 10px 10px 10px gray;
+  background-color: yellow;
+  font-family: Oldstyle Italic; 
+
+}
+
+
+
+
+/* image css */
+
+
+
+.nav {
+	width:100%;
+	padding:5px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	color:white;
+	background-color: black;
+}
+
+.btn {
+	border:5px solid yellow;
+	padding:10px;
+	border-radius: 10px;
+	
+
+}
+
+.btn:hover {
+     background-color: yellow;
+     transition:2s;
+}
+
+.container {
+	display: flex;
+	flex-wrap:wrap;
+	color:yellow;
+	font-size:15px;
+	font-family: Oldstyle Italic; 
+}
+
+.footage{
+	position: absolute;
+	bottom:200px;
+}
+
+.item {
+	width:33%;
+}
+
+/*try adding some specific widths such as .item.small or .item.large  */
+
+
+.item.small {
+	width:33.33%;
+	padding:20px;
+}
+
+.item.large {
+	width:66%;
+}
+
+.item img {
+	width: 100%;
+}
+
+.item.chinese {
+
+
+}
+
+.banner {
+	display: flex;
+	flex-wrap:wrap;
+	margin-top:50px;
+	margin-left:20px;
+
+}
+
+.copyright {
+	color:grey;
+	width:33%;
+}
+
+.reference {
+	color:grey;
+	width:66%;
+}
+
+/*Add .item.hide */
+
+.item.hide { 
+	display: none;
+}
+
+.banner.hide1 {
+	display: none;
+}
+
+.slide2.hide2 {
+	display: none;
+}
+
+
+
+
+
+.title{
+	font-size: 100px;
+	font-family: Oldstyle Italic; 
+	position:absolute;
+	color: yellow;
+}
+
+
+
+
+.name{
+	animation:bounce 10s;
+}
+
+@media (max-width: 500px) {
+	body {
+		background-color: yellow;
+	}
+
+	.title {
+		color: black;
+		font-size :50px;
+	}
+
+	 .item.chinese {
+	 	top: 50px;
+	 	width: 100%;
+	 }
+
+	 .slide2 {
+  width: 100%;
+  height: 30vh;
+  padding: 10px;
+  background-color: black;
+  position: fixed;
+  top: 250px;
+  font-size:10px;
+  color:yellow;
+  font-family: Oldstyle Italic; 
+ 
+}
+
+.slide1 {
+  width: 100%;
+  height: 30vh;
+  padding: 10px;
+  background-color: black;
+  color:yellow;
+  position: fixed;
+  top: 250px;
+  font-size:10px;
+  margin-right:-100%;
+  font-family: Oldstyle Italic; 
+  transition: 2s;
+  overflow:scroll;
+}
+
+.btn-slide1 {
+
+  background-color: black;
+  color: yellow;
+
+}
+
+.item.small {
+	width:100%;
+	padding:20px;
+}
+
+.container {
+	
+	color:black;
+	
+}
+
+
+.btn {
+	border:1px solid yellow;
+	padding:5px;
+	font-size: 10px;
+	border-radius: 10px;
+	
+
+}
+
+.container {
+	display: flex;
+	flex-wrap:wrap;
+	color:yellow;
+	font-size:15px;
+	font-family: Oldstyle Italic; 
+}
+
+}
