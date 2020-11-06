@@ -68,7 +68,7 @@ a {
   float: left;
   width: 100%;
   font-size: 15px;
-   column-count: 3;
+   column-count: 4;
     column-gap: 50px;
     column-rule-style: outset;
     column-rule-width: 1px;
