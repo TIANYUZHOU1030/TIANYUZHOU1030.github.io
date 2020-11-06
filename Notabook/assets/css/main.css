@@ -170,5 +170,26 @@ transform: rotate(360deg);
   font-size:10px;
    text-shadow: 5px 5px 5px black;
    
+} 
+
+
+.banner {
+  display: flex;
+  flex-wrap:wrap;
+  margin-top:50px;
+  margin-left:20px;
+
 }
+
+
+.copyright {
+  color:grey;
+  width:33%;
+}
+
+.reference {
+  color:grey;
+  width:66%;
+}
+
 
