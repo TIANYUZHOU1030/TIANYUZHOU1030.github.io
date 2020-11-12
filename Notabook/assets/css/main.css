@@ -298,6 +298,7 @@ font-style: normal;
   font-size:200px;
   padding: 50px;
   text-align: center;
+  animation: colorchange 10s infinite;
 }
 
 a {
