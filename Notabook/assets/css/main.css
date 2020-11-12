@@ -1,5 +1,7 @@
 body {
-	font-family: Impact;
+	 font-family: protipo,sans-serif;
+font-weight: 400;
+font-style: normal;
 	font-size: 40px;
 	background-color: #50888f;
 }
@@ -16,40 +18,48 @@ a {
 .header1 {
   padding: 50px;
   text-align: center;
-  font-family: MEDIO VINTAGE;
-
-  font-size:200px;
+  font-family: protipo,sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size:300px;
   animation: colorchange 10s infinite;
+  text-decoration:line-through;
 
 }
 
 .header11 {
   padding: 50px;
   text-align: center;
-  font-family: MEDIO VINTAGE;
-
-  font-size:200px;
+  font-family: protipo,sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size:300px;
   animation: colorchange 10s infinite;
+  text-decoration:line-through;
 
 }
 
 .header111 {
   padding: 50px;
   text-align: center;
-  font-family: MEDIO VINTAGE;
-
-  font-size:200px;
+   font-family: protipo,sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size:300px;
   animation: colorchange 10s infinite;
+  text-decoration:line-through;
 
 }
 
 .header1111 {
   padding: 50px;
   text-align: center;
-  font-family: MEDIO VINTAGE;
-
-  font-size:200px;
+  font-family: protipo,sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size:300px;
   animation: colorchange 10s infinite;
+  text-decoration:line-through;
 
 }
 
@@ -70,8 +80,9 @@ a {
 
 .header2 {
   text-align: center;
-   font-family: BigNoodleTitling;
-   font-style: Oblique;
+   font-family: protipo,sans-serif;
+font-weight: 700;
+font-style: normal;
 
 }
 
@@ -82,10 +93,11 @@ a {
    column-count: 2;
     column-gap: 50px;
 
-    line-height: 30px;
+    line-height: 40px;
     padding: 50px;
-    font-family: BigNoodleTitling;
-    
+  font-family: politica,sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
 
@@ -102,7 +114,10 @@ a {
     color:#50888f;
     padding: 50px;
     line-height: 20px;
-     font-family: Megan June;
+    font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
+  
 }
 
 .column3 {
@@ -114,7 +129,10 @@ a {
 
     padding: 50px;
     line-height: 20px;
-    font-family: Megan June;
+    
+    font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
 }
 
 .column4 {
@@ -128,7 +146,9 @@ a {
     color:#50888f;
     padding: 50px;
     line-height: 20px;
-    font-family: Megan June;
+   font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
 }
 
 .column5 {
@@ -140,7 +160,9 @@ a {
  
     padding: 50px;
     line-height: 20px;
-    font-family: Megan June;
+    font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
 }
 
 
@@ -238,12 +260,50 @@ transform: rotate(360deg);
   flex-wrap: wrap;
 }
 
-.col4 {
-  width: 25%;
+.col1 {
+
+ width: 33.33%;
+ background-color:#fc0183;
+ height: 400px;
+ font-family: politica-expanded,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 50px;
+
+}
+.col2 {
+ 
+ width: 33.33%;
+ background-color: #b1a701;
+ height: 400px;
+font-family: politica-expanded,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 50px;
+}
+.col3 {
+  background-color: #4366a0;
+ width: 33.33%;
+ height: 400px;
+font-family: politica-expanded,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 50px;
 }
 
+.hometitle{
+  font-family: protipo,sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size:200px;
+  padding: 50px;
+  text-align: center;
+}
 
-
+a {
+  text-decoration: none;
+  color: black;
+}
 
 
 
