@@ -1,9 +1,9 @@
 body {
-	 font-family: protipo,sans-serif;
-font-weight: 400;
+	  font-family: refrigerator-deluxe,sans-serif;
+font-weight: 300;
 font-style: normal;
 	font-size: 40px;
-	background-color: #50888f;
+	background-color:black;
 }
 
 a {
@@ -18,10 +18,8 @@ a {
 .header1 {
   padding: 50px;
   text-align: center;
-  font-family: protipo,sans-serif;
-font-weight: 700;
-font-style: normal;
-  font-size:300px;
+
+  
   animation: colorchange 10s infinite;
   text-decoration:line-through;
 
@@ -30,10 +28,8 @@ font-style: normal;
 .header11 {
   padding: 50px;
   text-align: center;
-  font-family: protipo,sans-serif;
-font-weight: 700;
-font-style: normal;
-  font-size:300px;
+ 
+ 
   animation: colorchange 10s infinite;
   text-decoration:line-through;
 
@@ -42,10 +38,8 @@ font-style: normal;
 .header111 {
   padding: 50px;
   text-align: center;
-   font-family: protipo,sans-serif;
-font-weight: 700;
-font-style: normal;
-  font-size:300px;
+  
+
   animation: colorchange 10s infinite;
   text-decoration:line-through;
 
@@ -54,10 +48,8 @@ font-style: normal;
 .header1111 {
   padding: 50px;
   text-align: center;
-  font-family: protipo,sans-serif;
-font-weight: 700;
-font-style: normal;
-  font-size:300px;
+ 
+  
   animation: colorchange 10s infinite;
   text-decoration:line-through;
 
@@ -80,24 +72,53 @@ font-style: normal;
 
 .header2 {
   text-align: center;
-   font-family: protipo,sans-serif;
+ font-family: refrigerator-deluxe,sans-serif;
+font-weight: 300;
+font-style: normal;
+  font-size: 20px;
+  color:#fc0183;
+  
+
+}
+
+h1{
+
+  font-family: refrigerator-deluxe,sans-serif;
 font-weight: 700;
 font-style: normal;
+font-size:400px;
+}
 
+h2 {
+  font-size: 70px;
+  line-height: 100px;
+  color:#50888f;
+
+}
+
+p{
+  font-family: refrigerator-deluxe,sans-serif;
+font-weight: 300;
+font-style: normal;
+  font-size: 20px;
+     line-height: 40px;
+     color:#50888f;
 }
 
 .column1 {
   float: left;
   width: 100%;
-  font-size: 40px;
+  font-size: 20px;
    column-count: 2;
     column-gap: 50px;
 
     line-height: 40px;
     padding: 50px;
-  font-family: politica,sans-serif;
-font-weight: 700;
-font-style: normal;
+font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
+  
+  
 }
 
 
@@ -114,9 +135,10 @@ font-style: normal;
     color:#50888f;
     padding: 50px;
     line-height: 20px;
-    font-family: politica,sans-serif;
+      font-family: politica,sans-serif;
 font-weight: 400;
 font-style: italic;
+  
   
 }
 
@@ -263,42 +285,38 @@ transform: rotate(360deg);
 .col1 {
 
  width: 33.33%;
- background-color:#fc0183;
- height: 400px;
- font-family: politica-expanded,sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 50px;
+ background-color:#50888f;
+ height: 600px;
+
+font-size: 80px;
 
 }
 .col2 {
  
  width: 33.33%;
  background-color: #b1a701;
- height: 400px;
-font-family: politica-expanded,sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 50px;
+ height: 600px;
+
+font-size: 80px;
 }
 .col3 {
   background-color: #4366a0;
  width: 33.33%;
- height: 400px;
-font-family: politica-expanded,sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 50px;
+ height: 600px;
+
+font-size: 80px;
+bottom: auto;
 }
 
 .hometitle{
-  font-family: protipo,sans-serif;
+  font-family: refrigerator-deluxe,sans-serif;
 font-weight: 700;
 font-style: normal;
-  font-size:200px;
+font-size:200px;
   padding: 50px;
   text-align: center;
   animation: colorchange 2s infinite;
+
 }
 
 a {
