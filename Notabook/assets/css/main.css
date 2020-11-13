@@ -6,9 +6,7 @@ font-style: normal;
 	background-color:black;
 }
 
-a {
-	color:red;
-}
+
 
 
 
@@ -21,7 +19,7 @@ a {
 
   
   animation: colorchange 10s infinite;
-  text-decoration:line-through;
+  
 
 }
 
@@ -31,7 +29,7 @@ a {
  
  
   animation: colorchange 10s infinite;
-  text-decoration:line-through;
+ 
 
 }
 
@@ -41,8 +39,7 @@ a {
   
 
   animation: colorchange 10s infinite;
-  text-decoration:line-through;
-
+  
 }
 
 .header1111 {
@@ -51,7 +48,7 @@ a {
  
   
   animation: colorchange 10s infinite;
-  text-decoration:line-through;
+
 
 }
 
@@ -90,6 +87,7 @@ font-size:400px;
 }
 
 h2 {
+  text-shadow: 5px 5px 10px #fc0183;
   font-size: 70px;
   line-height: 100px;
   color:#50888f;
@@ -117,6 +115,9 @@ font-style: normal;
 font-family: politica,sans-serif;
 font-weight: 400;
 font-style: italic;
+border-style:solid;
+  border-width:1px;
+  border-color: #fc0183;
   
   
 }
@@ -128,7 +129,7 @@ font-style: italic;
   float: left;
   width: 100%;
   font-size: 20px;
-   column-count: 4;
+   column-count: 3;
     column-gap: 30px;
  
     background-color: black;
@@ -155,13 +156,16 @@ font-style: italic;
     font-family: politica,sans-serif;
 font-weight: 400;
 font-style: italic;
+  border-width:1px;
+  border-color: #fc0183;
+
 }
 
 .column4 {
   float: left;
   width: 100%;
   font-size: 20px;
-   column-count: 4;
+   column-count: 3;
     column-gap:30px;
    
     background-color: black;
@@ -185,6 +189,7 @@ font-style: italic;
     font-family: politica,sans-serif;
 font-weight: 400;
 font-style: italic;
+ 
 }
 
 
@@ -325,7 +330,16 @@ a {
 }
 
 
+::selection {
+  background: #fc0183;
+  color: black;
+}
 
+.copyright{
+  font-size: 10px;
+  color: gray;
+  padding: 50px;
+}
 
 
 
