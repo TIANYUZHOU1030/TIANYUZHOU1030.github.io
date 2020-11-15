@@ -291,7 +291,7 @@ transform: rotate(360deg);
 
  width: 33.33%;
  background-color:#50888f;
- height: 600px;
+ height: 700px;
 
 font-size: 80px;
 
@@ -300,14 +300,14 @@ font-size: 80px;
  
  width: 33.33%;
  background-color: #b1a701;
- height: 600px;
+ height: 700px;
 
 font-size: 80px;
 }
 .col3 {
   background-color: #4366a0;
  width: 33.33%;
- height: 600px;
+ height: 700px;
 
 font-size: 80px;
 bottom: auto;
