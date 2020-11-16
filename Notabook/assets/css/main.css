@@ -368,7 +368,168 @@ a {
   padding: 50px;
 }
 
+@media (max-width: 500px) {
+ p{
+   font-size: 10px;
+     line-height: 30px;
+ }
+ h1{
 
+  font-family: refrigerator-deluxe,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size:100px;
+}
+
+h2 {
+  text-shadow: 5px 5px 10px #fc0183;
+  font-size: 40px;
+  line-height: 70px;
+  color:#50888f;
+
+}
+
+.column1 {
+  float: left;
+  width: 100%;
+  font-size: 20px;
+   column-count: 2;
+    column-gap: 20px;
+
+    line-height: 20px;
+    padding: 50px;
+font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
+border-style:solid;
+  border-width:1px;
+  border-color: #fc0183;
+  
+  
+}
+
+.column2 {
+  float: left;
+  width: 100%;
+  font-size: 20px;
+   column-count: 2;
+    column-gap: 20px;
+ 
+    background-color: black;
+    color:#50888f;
+    padding: 50px;
+    line-height: 20px;
+      font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
+  
+  
+}
+
+.column3 {
+ float: left;
+  width: 100%;
+  font-size: 20px;
+   column-count: 2;
+    column-gap: 20px;
+
+    padding: 50px;
+    line-height: 20px;
+    
+    font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
+  border-width:1px;
+  border-color: #fc0183;
+
+}
+
+.column4 {
+  float: left;
+  width: 100%;
+  font-size: 20px;
+   column-count: 2;
+    column-gap:20px;
+   
+    background-color: black;
+    color:#50888f;
+    padding: 50px;
+    line-height: 20px;
+   font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.column5 {
+ float: left;
+  width: 100%;
+  font-size: 20px;
+   column-count: 2;
+    column-gap: 30px;
+ 
+    padding: 50px;
+    line-height: 20px;
+    font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
+ 
+}
+
+.column6 {
+  float: left;
+  width: 100%;
+  font-size: 20px;
+   column-count: 2;
+    column-gap:20px;
+   
+    background-color: black;
+    color:#50888f;
+    padding: 50px;
+    line-height: 20px;
+   font-family: politica,sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+
+
+.col1 {
+
+ width: 100%;
+ background-color:#50888f;
+ height: 250px;
+
+font-size: 50px;
+
+}
+.col2 {
+ 
+ width: 100%;
+ background-color: #b1a701;
+ height: 250px;
+
+font-size: 50px;
+}
+.col3 {
+  background-color: #4366a0;
+ width: 100%;
+ height: 250px;
+
+font-size: 50px;
+bottom: auto;
+}
+
+.hometitle{
+  font-family: refrigerator-deluxe,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size:100px;
+  padding: 50px;
+  text-align: center;
+  animation: colorchange 2s infinite;
+
+}
+}
 
 
 
