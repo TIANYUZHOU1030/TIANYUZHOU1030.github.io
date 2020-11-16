@@ -260,7 +260,7 @@ font-style: italic;
 
      color:#fc0183;
   font-size:10px;
-   text-shadow: 5px 5px 5px black;
+ 
    
 }
 
@@ -274,7 +274,7 @@ transform: rotate(360deg);
 
      color:#fc0183;
   font-size:10px;
-   text-shadow: 5px 5px 5px #50888f;
+   
    line-height: 15px;
    
 }
@@ -283,7 +283,7 @@ transform: rotate(360deg);
        
        color:#fc0183;
   font-size:10px;
-   text-shadow: 5px 5px 5px #50888f;
+   
    line-height: 15px;
 }
 
@@ -293,7 +293,7 @@ transform: rotate(360deg);
 
      color:#fc0183;
   font-size:10px;
-   text-shadow: 5px 5px 5px black;
+  
    line-height: 15px;
    
 }
@@ -302,7 +302,7 @@ transform: rotate(360deg);
 
      color:#fc0183;
   font-size:10px;
-   text-shadow: 5px 5px 5px black;
+   
    line-height: 15px;
    
 } 
